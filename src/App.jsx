@@ -1,8 +1,9 @@
 import { Header } from './components/Header'
-import { Post } from './Post'
+import { Sidebar } from './components/Sidebar'
+import { Post } from './components/Post'
+
 import './global.css'
 import styles from './App.module.css'
-import { Sidebar } from './components/Sidebar'
 
 export function App() {
   return (
@@ -15,6 +16,10 @@ export function App() {
           <Post
             author='Elias Costa'
             conteudo='O maior estadio do mundo'
+          />
+          <Post
+            author='Amanda Corado'
+            conteudo='Projeto PGNI'
           />
         </main>
       </div>
